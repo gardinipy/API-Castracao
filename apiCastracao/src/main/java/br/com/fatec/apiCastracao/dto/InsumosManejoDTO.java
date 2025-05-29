@@ -7,6 +7,6 @@ import jakarta.validation.constraints.Min;
 public record InsumosManejoDTO(
     @NotNull Integer insumoId, // ID do Insumo relacionado
     @NotNull Integer manejoId,   // ID do Manejo relacionado
-    @NotNull @Min(1) Integer qtde       // Quantidade não pode ser nula e deve ser pelo menos 1
+    @NotNull @Min(1) Integer qtde       // Quantidade não pode ser nula e deve ser pelo menos 1.
 ) {
 }
